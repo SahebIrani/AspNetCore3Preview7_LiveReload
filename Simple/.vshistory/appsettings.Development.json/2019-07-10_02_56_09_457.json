@@ -1,0 +1,14 @@
+{
+	"Logging": {
+		"LogLevel": {
+			"Default": "Debug",
+			"System": "Information",
+			"Microsoft": "Information"
+		}
+	},
+	"LiveReload": {
+		//I recommend you put: "LiveReloadEnabled": false into appsettings.json and "LiveReloadEnabled": true into appsettings.Development.json
+		//so this feature isn't accidentally enabled in Production.
+		"LiveReloadEnabled": true
+	}
+}

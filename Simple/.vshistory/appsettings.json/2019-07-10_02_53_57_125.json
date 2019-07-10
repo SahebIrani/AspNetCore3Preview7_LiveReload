@@ -1,0 +1,18 @@
+{
+	"Logging": {
+		"LogLevel": {
+			"Default": "Information",
+			"Microsoft": "Warning",
+			"Microsoft.Hosting.Lifetime": "Information"
+		}
+	},
+	"AllowedHosts": "*",
+	"LiveReload": {
+		"LiveReloadEnabled": true,
+		"ClientFileExtensions": ".cshtml,.css,.js,.htm,.html,.ts,.razor,.custom",
+		"ServerRefreshTimeout": 3000,
+		"WebSocketUrl": "/__livereload",
+		"WebSocketHost": "ws://localhost:5000",
+		"FolderToMonitor": "~/"
+	}
+}
