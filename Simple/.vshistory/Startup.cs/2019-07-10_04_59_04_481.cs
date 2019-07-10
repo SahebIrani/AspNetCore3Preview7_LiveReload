@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -38,9 +37,7 @@ namespace Simple
 
 			// for ASP.NET Core 3.0 add Runtime Razor Compilation
 			// Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation
-			services.AddMvc()
-				.SetCompatibilityVersion(CompatibilityVersion.Version_3_0)
-				.AddRazorRuntimeCompilation();
+			services.AddMvc().AddRazorRuntimeCompilation();
 			services.AddRazorPages().AddRazorRuntimeCompilation();
 
 			//dotnet dev-certs https--clean
@@ -55,7 +52,6 @@ namespace Simple
 		{
 			if (env.IsDevelopment())
 			{
-				// add it here
 				//app.UseLiveReload();
 
 				app.UseDeveloperExceptionPage();

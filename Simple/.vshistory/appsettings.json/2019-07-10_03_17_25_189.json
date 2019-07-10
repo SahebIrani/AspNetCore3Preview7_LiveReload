@@ -11,7 +11,7 @@
 	//All of these settings are optional.
 	"LiveReload": {
 		"LiveReloadEnabled": false,
-		"ClientFileExtensions": ".cshtml,.css,.js,.htm,.html,.ts,.wc,.razor,.cs,.custom",
+		"ClientFileExtensions": ".cshtml,.css,.js,.htm,.html,.ts,.razor,.cs,.custom",
 		"ServerRefreshTimeout": 3000,
 		"WebSocketUrl": "/__livereload",
 		"WebSocketHost": "ws://localhost:5000",

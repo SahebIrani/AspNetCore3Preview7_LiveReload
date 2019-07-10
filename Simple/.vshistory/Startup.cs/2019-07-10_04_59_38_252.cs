@@ -55,7 +55,6 @@ namespace Simple
 		{
 			if (env.IsDevelopment())
 			{
-				// add it here
 				//app.UseLiveReload();
 
 				app.UseDeveloperExceptionPage();
