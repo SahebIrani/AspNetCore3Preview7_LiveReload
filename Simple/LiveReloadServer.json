@@ -1,0 +1,23 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Warning",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Warning"
+    }
+  },
+  "WebRoot": null,
+  "Port": 5200,
+  "OpenBrowser": true,
+  "UseSsl": false,
+  "DefaultFiles": "index.html,default.htm,default.html",
+  "LiveReloadEnabled": true,
+  "RazorEnabled": false,
+  "ShowUrls": false,
+  "LiveReload": {
+    "LiveReloadEnabled": true,
+    "ClientFileExtensions": ".cshtml,.css,.js,.htm,.html,.ts",
+    "ServerRefreshTimeout": 3000,
+    "WebSocketUrl": "/__livereload"
+  }
+}
